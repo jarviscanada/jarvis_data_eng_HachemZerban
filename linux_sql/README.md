@@ -186,6 +186,6 @@ Queries were tested on the Postgre database .
 
 5.Query to list hosts that have certain software installed .
 
-6.A function that returns a table containing usage esource data for a specific host in the past 24 hours.
+6.A function that returns a table containing usage resource data for a specific host in the past 24 hours.
 
 7.Automating scripts to start and stop at specific times.
