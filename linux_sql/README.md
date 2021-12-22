@@ -1,19 +1,12 @@
-#Introduction
-he Jarvis Linux Cluster Administration (LCA)  program is a monitoring tool
+# Introduction
 
-used to continuously record essential resource usage data as well as
+The Jarvis Linux Cluster Administration (LCA)  program is a monitoring tool used to continuously record essential resource usage data as well as hardware 
 
-hardware specifications. The collected data is stored in a database
+specifications. The collected data is stored in a database and it will be used for future data analytics .
 
-and it will be used for future data analytics .
+The program is used by LCA team members and it is installed on a server cluster that runs Centos  OS .
 
-The program is used by LCA team members and it is installed on a
-
-server cluster that runs Centos  OS .
-
-The Linux cluster is connected through a switch and each node runs
-
-the monitoring tool sends the data via the local network automatically.
+The Linux cluster is connected through a switch and each node runs the monitoring tool sends the data via the local network automatically.
 
 We used bash scripts to collect the usage data and hardware specifications.
 
@@ -21,21 +14,21 @@ We used Postegre as our RDBMS . The latter is deployed on a Docker instance.
 
 # Quick Start
 
-- Start a psql instance by running  psql_docker.sh
+- Start a psql instance by running  psql_docker.sh
 
-$ ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
+ `$ ./scripts/psql_docker.sh start|stop|create [db_username][db_password]`
 
 - Create tables using ddl.sql
 
-$ psql -h -U -d -f .sql/ddl.sql
+`$ psql -h -U -d -f .sql/ddl.sql`
 
 - Insert hardware specs data into the DB using host_info.sh
 
-$ ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
+`$ ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password`
 
 - Insert hardware usage data into the DB using host_usage.sh
 
-$ ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
+`$ ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password`
 
 - Crontab setup
 
@@ -60,7 +53,7 @@ Start the  container : `./scripts/psql_docker.sh start`
 
 Create  the tables and insert sample data  by executing the following command :
 
-: `psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`
+ `psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`
 
 run the host infos script to get host specs : `bash scripts/host_ìnfo.sh psql_host psql_port db_name psql_user psql_password`
 
@@ -80,9 +73,7 @@ better by executing the `queries.sql`
 
 ### psql_docker.sh
 
-The script is used to create a new Psql docker instance with a given
-
-username and password .
+The script is used to create a new Psql docker instance with a given username and password .
 
     
 
@@ -98,9 +89,7 @@ $ ./scripts/psql_docker.sh stop
 
 ### host_info.sh
 
-it's used to collect hardware specification data and persist it
-
-on the database.
+it's used to collect hardware specification data and persist iton the database.
 
    
 
@@ -142,15 +131,13 @@ $ crontab -e
 
 ### queries.sql
 
-The file is used to get useful data from database so that
-
-LCA team can manage the cluster better and also plan for future actions .
+The file is used to get useful data from database so that LCA team can manage the cluster better and also plan for future actions .
 
 It has 3 queries :
 
 1) Group hosts by CPU number and sort by their memory size in descending order
 
-2) Get Average used memory in percentage over 5 mins interval for each host.
+2) Get average used memory in percentage over 5 mins interval for each host.
 
 3) Returning the list of failed nodes.
 
