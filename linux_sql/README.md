@@ -1,7 +1,6 @@
 # Introduction
 
 The Jarvis Linux Cluster Administration (LCA)  program is a monitoring tool used to continuously record essential resource usage data as well as hardware 
-
 specifications. The collected data is stored in a database and it will be used for future data analytics .
 
 The program is used by LCA team members and it is installed on a server cluster that runs Centos  OS .
@@ -89,7 +88,7 @@ $ ./scripts/psql_docker.sh stop
 
 ### host_info.sh
 
-it's used to collect hardware specification data and persist iton the database.
+it's used to collect hardware specification data and persist it on the database.
 
    
 
@@ -97,9 +96,7 @@ $ ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
 
 ### host_usage.sh
 
-It's used to collect host usage data resources and persist it
-
-on the database .
+It's used to collect host usage data resources and persist it on the database .
 
 $ ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 
@@ -113,9 +110,7 @@ $ psql -h -U -d -f .sql/ddl.sql
 
 ### crontab
 
-The crontab command runs the `host_usage.sh` script every minute to store real time usage data
-
-continuously.
+The crontab command runs the `host_usage.sh` script every minute to store real time usage data continuously.
 
 edit crontab
 
