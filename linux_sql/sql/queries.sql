@@ -1,7 +1,7 @@
 
 
 
-
+-- Group hosts by CPU number and sort by their memory size in descending order(
 SELECT cpu_number, id AS host_id, total_mem
 FROM host_info
 ORDER BY  cpu_number ,total_mem DESC;
