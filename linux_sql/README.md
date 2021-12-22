@@ -176,9 +176,9 @@ Queries were tested on the Postgre database .
 
 # Improvements
 
-1. Including the ability to obtain a list of software processes using resources usage.
+1.Including the ability to obtain a list of software processes using resources usage.
 
-2. A script to obtain network statistics such as IP addresses and network type.
+2.A script to obtain network statistics such as IP addresses and network type.
 
 3.List of connected external connections and local sockets.
 
