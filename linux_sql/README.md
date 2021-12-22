@@ -31,9 +31,9 @@ We used Postegre as our RDBMS . The latter is deployed on a Docker instance.
 
 - Crontab setup
 
-$ crontab -e
+`$ crontab -e`
 
-* * * * * bash ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
+ `* * * * * bash ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log`
 
 
 
@@ -176,9 +176,7 @@ Queries were tested on the Postgre database .
 
 # Improvements
 
-1. Including the ability to obtain a list of software processes using
-
-resources usage.
+1. Including the ability to obtain a list of software processes using resources usage.
 
 2. A script to obtain network statistics such as IP addresses and network type.
 
@@ -188,8 +186,6 @@ resources usage.
 
 5.Query to list hosts that have certain software installed .
 
-6.A function that returns a table containing usage
-
-resource data for a specific host in the past 24 hours.
+6.A function that returns a table containing usage esource data for a specific host in the past 24 hours.
 
 7.Automating scripts to start and stop at specific times.
