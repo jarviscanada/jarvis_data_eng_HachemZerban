@@ -5,117 +5,219 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Billuigual IT professional with 2 years of hands-on experience in IT support . Result-driven able 
-to work in a fast paced environment and able to handle difficult situations. Succefully developped orgizations applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently,communcating  effectivelly with team members  and focused on improving technical solutions  that further establish organizational goals.
-Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql ,Microsoft SQL server and PostegreSQL. 
+summary: Billuigual  IT professional with 2 years of hands-on experience in IT support . Result-driven able 
 
+to work in a fast paced environment and able to handle difficult situations. Successfully developed organisational applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently,communcating  effectivelly with team members  and focused on improving technical solutions  that further establish organizational goals.
+
+Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql ,Microsoft SQL server and PostegreSQL. 
 
 # Group your skills by level.
+
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+
 skills:
-  # At least 5 skills
-  proficient: 
-    - Java
-    - Linux/Bash
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-    - UML
-  # At least 5 skills
-  competent:
-    - C#
-    - HTML/CSS
-    - XML/XSLT
-    - Docker
-    - Windows/MAC
-    - Android/IOS
-    - Ms Office suite
-    - VMware
-    - Hardware
-  # At least 5 skills
-  familiar:
-    - C language
-    - Network Management 
-    - Design patterns
-    - Digital security
-    - Cloud Computing
-    - Quality Assurance
-    
+
+  # At least 5 skills
+
+  proficient: 
+
+    - Java
+
+    - Linux/Bash
+
+    - RDBMS/SQL
+
+    - Agile/Scrum
+
+    - Git
+
+    - UML
+
+  # At least 5 skills
+
+  competent:
+
+    - C#
+
+    - HTML/CSS
+
+    - XML/XSLT
+
+    - Docker
+
+    - Windows/MAC
+
+    - Android/IOS
+
+    - Ms Office Suite
+
+    - VMware
+
+    - Hardware
+
+  # At least 5 skills
+
+  familiar:
+
+    - C language
+
+    - Network Management 
+
+    - Design patterns
+
+    - Digital security
+
+    - Cloud Computing
+
+    - Quality Assurance
+
+    
 
 # List of Jarvis projects
+
 jarvis_projects:
-  - name: "Cluster Monitor"
-    git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: " Developed a monitoring tool  to continuously record essential resource usage data as well as hardware specifications using Linux Bash scripts , docker and postgresql.The collected data will be used for future data analytics "
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  
+
+  - name: "Cluster Monitor"
+
+    git_url: "/linux_sql"
+
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+
+    description: " Developed a monitoring tool  to continuously record essential resource usage data as well as hardware specifications using Linux Bash scripts , docker and postgresql.The collected data will be used for future data analytics "
+
+  - name: "Core Java Apps"
+
+    git_url: "/core_java"
+
+    description:
+
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+
+      - "JDBC App: "
+
+      - "Grep App: "
+
+  
 
 # List of personal or academic projects
+
 # Feel free to add more projects
+
 highlighted_projects:
-    #project name
-  - name: "CSV file Manipulator "
-   
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: " Coded a program that manipulate heavy csv file from the Ministry of education to extract valuable data.
-                   Generated sub-csv  files that encompass specific data 
-                   Implemented diffrent sorting alogirthms to sort all records by a specific criteria
-                   Implemented Binary search algorithm to find certain records "
-  
-   - name: "Car Dealership Database"
-     
-     description: "Designed database tables and built complex queries  to gain valuable data that will be used for
-                   future marketing strategies .  "
- 
+
+    #project name
+
+  - name: "CSV file Manipulator "
+
+   
+
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+
+    description: " Coded a program that manipulates heavy csv files from the Ministry of Education to extract valuable data.
+
+                   Generated sub-csv  files that encompass specific data 
+
+                   Implemented diffrent sorting alogirthms to sort all records by a specific criteria
+
+                   Implemented Binary search algorithm to find certain records "
+
+  
+
+   - name: "Car Dealership Database"
+
+     
+
+     description: "Designed database tables and built complex queries  to gain valuable data that will be used for
+
+                   future marketing strategies .  "
+
+ 
+
 #List of professional experience
+
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
-    company: "Jarvis"
-    duration: "2020-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed new applications using Java 
-                  Built Databases and table structues following data modeling techniques
-                  Created Sql queries to retrieve essential informations
-                  Collaborated with teammebers  on the delivery of application code using agile scrum 
-                  Made suggestion on how to improve current application by adding new features . "
-  - title: "IT Technician "
-    company: "Global Education Connections"
-    duration: "2020-2021"
-    description: "Provided Technical support to level 1 users
-                  Ensured the installation of hardware and software components 
-                  Updated hardware and software inventory 
-                  Configurated equipment, perform installations for users.
-                  Carryed out devices troubelshooting"
+
+  #Write your Jarvis role as a professional experience rather than training.
+
+  - title: "Software Developer"
+
+    company: "Jarvis"
+
+    duration: "2020-present"
+
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+
+    description: "Developed new applications using modern technologies"
+
+
+                  Built databases and table structures following data modelling techniques
+
+                  Created SQL queries to retrieve essential informations
+
+                  Collaborated with team members on the delivery of application code using agile scrum 
+
+                  Made suggestion on how to improve the current application by adding new features . "
+
+  - title: "IT Technician "
+
+    company: "Global Education Connections"
+
+    duration: "2020-2021"
+
+    description: "Provided Technical support to level 1 users
+
+                  Ensured the installation of hardware and software components 
+
+                  Updated hardware and software inventory 
+
+                  Configurated equipment, perform installations for users.
+
+                  Carried out devices troubelshooting"
 
 #List of edcuation
-education: 
-  - school_name: "College Saint-Michel"
-    duration: "2019-2020"
-    degree: "DVS in IT support and troubleshooting"
-    
-   
-  - school_name: "UPF"
-    duration: "2015-2018"
-    degree: "Bachelor of Computer Science"
-    department: "Faculty of Engineering Science "
-     
+
+education: 
+
+  - school_name: "College Saint-Michel"
+
+    duration: "2019-2020"
+
+    degree: "DVS in IT support and troubleshooting"
+
+    
+
+   
+
+  - school_name: "UPF"
+
+    duration: "2015-2018"
+
+    degree: "Bachelor of Computer Science"
+
+    department: "Faculty of Engineering Science "
+
+     
 
 #Optional section
+
 others:
-    
-  - title: "Hobbies"
-    bullets:
-      - " Solving Puzzles"
-      - "Soccer player"
-      - "Reading "
-      - "Mobile Gaming"
+
+    
+
+  - title: "Hobbies"
+
+    bullets:
+
+      - " Solving Puzzles"
+
+      - "Soccer player"
+
+      - "Reading "
+
+      - "Mobile Gaming"
