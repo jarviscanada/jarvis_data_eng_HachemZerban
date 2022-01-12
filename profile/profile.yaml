@@ -4,11 +4,18 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
+<<<<<<< HEAD
 summary: Bilingual IT professional with 2 years of hands-on experience in IT support . Result-driven able to work in a fast paced environment and able to handle difficult situations. Successfully developed origanizational applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently ,communicating  effectively with team members  and focused on improving technical solutions  that further establish organizational goals.Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql ,Microsoft SQL server and PostegreSQL. 
+=======
+
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
 
 # Group your skills by level.
+
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+
 skills:
+<<<<<<< HEAD
   # At least 5 skills
   proficient:
     - Java 8
@@ -34,8 +41,15 @@ skills:
     - Design patterns
     - Digital security
     - Cloud Computing
+=======
+
+    
+
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
 # List of Jarvis projects
+
 jarvis_projects:
+<<<<<<< HEAD
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -63,10 +77,17 @@ jarvis_projects:
   #- name: "Cloud/DevOps"
   #  git_url: "/cloud_devops"
   #  description: ""
+=======
+
+  
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
 
 # List of personal or academic projects
+
 # Feel free to add more projects
+
 highlighted_projects:
+<<<<<<< HEAD
   #project name
   - name: "CSV File Manipulator"
     #URL is optional
@@ -82,11 +103,19 @@ Implemented Binary search algorithm to find certain records."
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Designed database tables and built complex queries  to gain valuable data that will be used for future marketing strategies ."
  
+=======
+
+ 
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
 
 #List of professional experience
+
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+
 professional_experience:
+<<<<<<< HEAD
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
@@ -120,8 +149,16 @@ education:
     degree: "Bachelor of Computer Science"
     department: "Faculty of Engineering Science "
     awards_achievements:
+=======
+
+ 
+     
+
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
 #Optional section
+
 others:
+<<<<<<< HEAD
   #category
   - title: "Hobbies"
     bullets:
@@ -130,3 +167,7 @@ others:
       - "Reading"
       
   
+=======
+
+ 
+>>>>>>> a69e73b7bace190db5083f33c3f731564564ed87
