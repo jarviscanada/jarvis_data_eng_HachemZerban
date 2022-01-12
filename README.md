@@ -1,10 +1,10 @@
 # Hachem Zerban . Jarvis Consulting
 
-Bilingual IT professional with 2 years of hands-on experience in IT support . Result-driven able to work in a fast paced environment and able to handle difficult situations. Successfully developed origanizational applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently ,communicating  effectively with team members  and focused on improving technical solutions  that further establish organizational goals.Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql ,Microsoft SQL server and PostegreSQL.
+Bilingual IT professional with 2 years of hands-on experience in IT support . Result-driven able to work in a fast paced environment and able to handle difficult situations. Successfully developed origanizational applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently ,communicating  effectively with team members  and focused on improving technical solutions  that further establish organizational goals.Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql, Microsoft SQL server and PostegreSQL.
 
 ## Skills
 
-**Proficient:** Java 8, Linux/Bash, RDBMS/BASH, Agile/Scrum, Git/GitHub, Maven, UML
+**Proficient:** Java 8, Linux/Bash, RDBMS, Agile/Scrum, Git/GitHub, Maven, UML
 
 **Competent:** C#, HTML/CSS, XML/XSLT, Docker, Windows/MAC, Android/IOS, Ms Office suite
 
