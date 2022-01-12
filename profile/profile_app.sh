@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 function init() {
   echo "---- Downloading sample profile.yaml file ----"
   chmod +x $0
-  wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/develop/profile.yaml -O profile.yaml
+  wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/develop/profile.yaml .
   exit 0
 }
 
@@ -14,7 +14,7 @@ function check_status() {
   exit_code=$1
   if [ ${exit_code} -eq 0 ]
   then
-    echo "Success!!!👍"
+    echo "Success!!!?"
     echo ""
   else
     echo "Failed"
@@ -69,7 +69,7 @@ function render_pdf() {
 function overwrite_readme() {
   if ls ../README.md; then
     echo "---- Moving profile.md to ../README.md ----"
-    mv -f profile.md ../README.md
+    mv profile.md ../README.md
   fi
 }
 

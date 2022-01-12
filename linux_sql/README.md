@@ -170,9 +170,9 @@ There are two tables in the PSQL database, their schema are outlined below
 # Test
 
 
-The bash scripts are all tested on the centos os 7 terminal .
+The bash scripts were all tested manually on the centos os 7 terminal .
 
-Queries were tested on the Postgre database .
+Queries were tested manually on the Postgre database .
 
 # Improvements
 
