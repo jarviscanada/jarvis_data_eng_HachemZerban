@@ -1,15 +1,7 @@
 # Introduction
 
 The Jarvis Linux Cluster Administration (LCA)  program is a monitoring tool used to continuously record essential resource usage data as well as hardware 
-specifications. The collected data is stored in a database and it will be used for future data analytics .
-
-The program is used by LCA team members and it is installed on a server cluster that runs Centos  OS .
-
-The Linux cluster is connected through a switch and each node runs the monitoring tool sends the data via the local network automatically.
-
-We used bash scripts to collect the usage data and hardware specifications.
-
-We used Postegre as our RDBMS . The latter is deployed on a Docker instance.
+specifications. The collected data is stored in a database and it will be used for future data analytics .The program is used by LCA team members and it is installed on a server cluster that runs Centos. The Linux cluster is connected through a switch and each node runs the monitoring tool sends the data via the local network automatically. We used bash scripts to collect the usage data and hardware specifications. We used postgres as our RDBMS . The latter is deployed on a Docker instance.
 
 # Quick Start
 
@@ -40,29 +32,21 @@ We used Postegre as our RDBMS . The latter is deployed on a Docker instance.
 
 # Implementation
 
-To run the program, the user must have:
-
-- docker installed in the host machine .
-
-- Postgre image deployed .
-
 1) Create the database  :`./scripts/psql_docker.sh create db_username db_password`
 
-Start the  container : `./scripts/psql_docker.sh start`
+2) Start the  container : `./scripts/psql_docker.sh start`
 
-Create  the tables and insert sample data  by executing the following command :
+3) Create  the tables and insert sample data  by executing the following command :
 
  `psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`
 
-run the host infos script to get host specs : `bash scripts/host_ìnfo.sh psql_host psql_port db_name psql_user psql_password`
+4) Run the host infos script to get host specs : `bash scripts/host_ìnfo.sh psql_host psql_port db_name psql_user psql_password`
 
-and finally run the host_usage script the collect the host usage data :
+5) Finally run the host_usage script the collect the host usage data :
 
 `bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password`
 
-The user can also run useful queries that help in managing the cluster
-
-better by executing the `queries.sql`
+The user can also run useful queries that help in managing the clusterbetter by executing the `queries.sql`
 
 ## Architecture
 
@@ -170,10 +154,9 @@ There are two tables in the PSQL database, their schema are outlined below
 # Test
 
 
-The bash scripts were all tested manually on the centos os 7 terminal .
+The bash scripts were tested manually by running each one on the terminal and examining the output .
 
-Queries were tested manually on the Postgre database .
-
+Queries were tested manually on IDE by executing each query alone and examining the results.
 # Improvements
 
 1.Including the ability to obtain a list of software processes using resources usage.
