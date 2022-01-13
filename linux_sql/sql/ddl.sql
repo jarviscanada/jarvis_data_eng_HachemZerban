@@ -1,7 +1,4 @@
 
-
-
-
 CREATE TABLE PUBLIC.host_info
   (
      id                SERIAL NOT NULL,
@@ -44,26 +41,3 @@ CREATE TABLE PUBLIC.host_usage
 INSERT INTO host_usage("timestamp",host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available) VALUES
 
 ('2019-05-29 16:53:28',1,'256','95','0','0','31220');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-                        
