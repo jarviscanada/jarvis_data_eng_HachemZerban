@@ -1,6 +1,6 @@
 # Hachem Zerban . Jarvis Consulting
 
-Bilingual IT professional with 2 years of hands-on experience in IT support . Result-driven able to work in a fast paced environment and able to handle difficult situations. Successfully developed origanizational applications following design methodologies such  as agile  . Adaptable and consistent with an ability to work independently ,communicating  effectively with team members  and focused on improving technical solutions  that further establish organizational goals.Proficient in a range of modern technologies including Java ,C# and SQL . Possess skills in Relational databases including Mysql, Microsoft SQL server and PostegreSQL.
+Bilingual IT professional with 2 years of hands-on experience in IT support.  Result-driven able to work in a fast-paced environment and able to handle difficult situations. Successfully developed organizational applications following design methodologies such as agile. Adaptable and consistent with an ability to work independently, communicate effectively with team members, and focus on improving technical solutions that further establish organizational goals.Proficient in a range of modern technologies including Java, C#, and SQL. Possess skills in Relational databases including Mysql, Microsoft SQL Server, and PostgreSQL.
 
 ## Skills
 
@@ -15,7 +15,7 @@ Bilingual IT professional with 2 years of hands-on experience in IT support . Re
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerban](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/linux_sql)]: Developed a monitoring tool  to continuously record essential resource usage data as well as hardware specifications using Linux Bash scripts , docker and postgresql. The collected data will be used for future data analytics.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/linux_sql)]: Developed a monitoring tool to continuously record essential resource usage data as well as hardware specifications using Linux Bash scripts, Docker, and PostgreSQL. The collected data will be used for future data analytics.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/core_java)]:
       
@@ -26,16 +26,16 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 
 ## Highlighted Projects
-**CSV File Manipulator**: Coded a program that manipulate heavy CSV file from the Ministry of education to extract valuable data. Generated sub-CSV  files that encompass specific data . Implemented different sorting algorithms to sort all records by a specific criteria . Implemented Binary search algorithm to find certain records.
+**CSV File Manipulator**: Coded a program in **C** that manipulate heavy CSV files from the Ministry of education to extract valuable data.Generated sub-CSV files that encompass specific data.Implemented different sorting algorithms to sort all records by specific criteria. Implemented a binary search algorithm to find certain records.
 
-**Car Dealership Database**: Designed database tables and built complex queries  to gain valuable data that will be used for future marketing strategies .
+**Car Dealerships Database**: Designed database tables for car dealerships and built complex queries to gain valuable data insights that will be used for future marketing strategies to increase annual profit by 30%.  Technologies used include **Microsoft SQL SERVER** and **Transact SQL.**
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2021-present)**: Developed new applications and implemented solutions to various problems within the Jarvis team . Built Databases and table structures following data modelling techniques. Created Sql queries to retrieve essential informations. Collaborated with team members  on the delivery of application code using agile scrum. Made suggestion on how to improve current application by adding new features  .
+**Software Developer, Jarvis (2021-present)**: Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.
 
-**IT Technician, Globale Education Connections (2020-2021)**: Provided Technical support to level 1 users. Ensured the installation of hardware and software components . Updated hardware and software inventory . Configured equipment, perform installations for users. Carried out devices troubleshooting.
+**IT Technician, Globale Education Connections (2020-2021)**: Provided Technical support to level 1 users. Ensured the installation of hardware and software components. Updated hardware and software inventory. Configured equipment, perform installations for users. Carried out devices troubleshooting.
 
 
 ## Education
