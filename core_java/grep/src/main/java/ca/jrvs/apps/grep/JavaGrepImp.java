@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class JavaGrepImp implements JavaGrep {
+public abstract class JavaGrepImp implements JavaGrep {
 
   final Logger logger = LoggerFactory.getLogger(JavaGrepImp.class);
   /**
@@ -31,7 +31,7 @@ public class JavaGrepImp implements JavaGrep {
   private String rootPath;
   private String outFile;
   // Use default logger config
-
+/*
   public static void main(String[] args) {
     if (args.length != 3) {
       throw new IllegalArgumentException("Usage: JavaGrep regex rootPath outFile");
@@ -57,6 +57,7 @@ public class JavaGrepImp implements JavaGrep {
    *
    * @throws IOException
    */
+
   @Override
   public void process() throws IOException {
     List<String> matchedLines = new ArrayList<>();
@@ -75,9 +76,7 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public List<File> listFiles(String rootDir) {
-    // will it be re declared again from 0 ?
 
-    // rotdir = "/home/apps/dev"
     File dirFile = new File(rootDir);
     File[] fileArr = dirFile.listFiles();
 
