@@ -37,9 +37,9 @@
     {
       "description": [
         "**Twitter App:** ",
-        "**JDBC App:** ",
-        "**Grep App:** Ongoing development ... ",
-        "The projects were designed.."
+        "**JDBC App:** Developed a Java application to manage a relational database of a commercial website using Java, JDBC, PostgreSQL, Design Patterns, and Maven. ",
+        "**Grep App:** Developed a  Java application that mirrors the Linux grep command functionality that enables users to search matching strings from files in any operating system and then store the search results in an output file. We used Java, Linux Bash, Regex, Maven, and Docker to build the app. ",
+        ""
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
@@ -59,7 +59,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.",
+      "description": "Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Maven, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.",
       "duration": "2021-present",
       "title": "Software Developer"
     },

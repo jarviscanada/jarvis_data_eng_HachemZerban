@@ -20,9 +20,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/core_java)]:
       
   - **Twitter App:** 
-  - **JDBC App:** 
-  - **Grep App:** Ongoing development ... 
-  - The projects were designed..
+  - **JDBC App:** Developed a Java application to manage a relational database of a commercial website using Java, JDBC, PostgreSQL, Design Patterns, and Maven. 
+  - **Grep App:** Developed a  Java application that mirrors the Linux grep command functionality that enables users to search matching strings from files in any operating system and then store the search results in an output file. We used Java, Linux Bash, Regex, Maven, and Docker to build the app. 
+  - 
 
 
 ## Highlighted Projects
@@ -33,7 +33,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2021-present)**: Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.
+**Software Developer, Jarvis (2021-present)**: Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Maven, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.
 
 **IT Technician, Globale Education Connections (2020-2021)**: Provided Technical support to level 1 users. Ensured the installation of hardware and software components. Updated hardware and software inventory. Configured equipment, perform installations for users. Carried out devices troubleshooting.
 
