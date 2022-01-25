@@ -1,0 +1,101 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "DVS in IT support and troubleshooting",
+      "department": "Information Technology",
+      "duration": "2019-2021",
+      "school_name": "College Saint-Michel"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Computer Science",
+      "department": "Faculty of Engineering Science ",
+      "duration": "2015-2018",
+      "school_name": "UPF"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HachemZerban",
+  "highlighted_projects": [
+    {
+      "description": "Coded a program in **C** that manipulate heavy CSV files from the Ministry of education to extract valuable data.Generated sub-CSV files that encompass specific data.Implemented different sorting algorithms to sort all records by specific criteria. Implemented a binary search algorithm to find certain records.",
+      "git_url": "",
+      "name": "CSV File Manipulator"
+    },
+    {
+      "description": "Designed database tables for car dealerships and built complex queries to gain valuable data insights that will be used for future marketing strategies to increase annual profit by 30%.  Technologies used include **Microsoft SQL SERVER** and **Transact SQL.**",
+      "git_url": null,
+      "name": "Car Dealerships Database"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a monitoring tool to continuously record essential resource usage data as well as hardware specifications using Linux Bash scripts, Docker, and PostgreSQL. The collected data will be used for future data analytics.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "**Twitter App:** ",
+        "**JDBC App:** Developed a Java application to manage a relational database of a commercial website using Java, JDBC, PostgreSQL, Design Patterns, and Maven. ",
+        "**Grep App:** Developed a  Java application that mirrors the Linux grep command functionality that enables users to search matching strings from files in any operating system and then store the search results in an output file. We used Java, Linux Bash, Regex, Maven, and Docker to build the app. ",
+        ""
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    }
+  ],
+  "name": "Hachem Zerban",
+  "others": [
+    {
+      "bullets": [
+        "Solving Puzzles ",
+        "Soccer Player",
+        "Reading"
+      ],
+      "title": "Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed new applications and implemented solutions to various problems within the Jarvis team using **Java, Linux, Bash, IntelliJ IDEA, Maven, Docker and Git**. Built Databases and table structures following data modeling techniques. Created SQL queries using **SQL and PostgreSQL** to retrieve essential pieces of information. Collaborated with team members on the delivery of application code using Agile Scrum. Made suggestions on how to improve the current application by adding new features.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Globale Education Connections",
+      "description": "Provided Technical support to level 1 users. Ensured the installation of hardware and software components. Updated hardware and software inventory. Configured equipment, perform installations for users. Carried out devices troubleshooting.",
+      "duration": "2020-2021",
+      "title": "IT Technician"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "C#",
+      "HTML/CSS",
+      "XML/XSLT",
+      "Docker",
+      "Windows/MAC",
+      "Android/IOS",
+      "Ms Office suite"
+    ],
+    "familiar": [
+      "C",
+      "Network Management",
+      "Design patterns",
+      "Digital security",
+      "Cloud Computing"
+    ],
+    "proficient": [
+      "Java 8",
+      "Linux/Bash",
+      "RDBMS",
+      "Agile/Scrum",
+      "Git/GitHub",
+      "Maven",
+      "UML"
+    ]
+  },
+  "summary": "Bilingual IT professional with 2 years of hands-on experience in IT support.  Result-driven able to work in a fast-paced environment and able to handle difficult situations. Successfully developed organizational applications following design methodologies such as agile. Adaptable and consistent with an ability to work independently, communicate effectively with team members, and focus on improving technical solutions that further establish organizational goals.Proficient in a range of modern technologies including Java, C#, and SQL. Possess skills in Relational databases including Mysql, Microsoft SQL Server, and PostgreSQL."
+}
