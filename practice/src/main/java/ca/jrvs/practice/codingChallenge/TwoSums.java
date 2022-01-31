@@ -6,8 +6,9 @@ import java.util.HashMap;
 public class TwoSums {
 
   public static void main(String[] args) {
-    int []arr = {2,11,7};
+    int []arr = {2,7,9,13,15,28};
     int [] res = checkSum(arr,9);
+
     System.out.println(Arrays.toString(res));
 
   }
@@ -33,6 +34,11 @@ public class TwoSums {
     return  result;
 
   }
+
+
+
+
+
 
 
 }
