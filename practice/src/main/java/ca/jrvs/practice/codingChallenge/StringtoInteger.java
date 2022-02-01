@@ -12,26 +12,27 @@ public class StringtoInteger {
 
   }
 
-public static int stringtoInt(String str) {
-    boolean negative =false;
+  public static int stringtoInt(String str) {
+    boolean negative = false;
 
-    int sum =0 ;
-    for(int i=0;i<str.length();i++) {
+    int sum = 0;
+    for (int i = 0; i < str.length(); i++) {
 
-       if  ((int)str.charAt(i)==45) {
-         negative = true;
+      if ((int) str.charAt(i) == 45) {
+        negative = true;
 
-       }
+      }
       if (Character.isDigit(str.charAt(i))) {
-        sum =sum*10+(str.charAt(i) - '0');
+        sum = sum * 10 + (str.charAt(i) - '0');
 
       }
 
     }
-if(negative)
-  return -sum ;
-else
-  return sum;
+    if (negative) {
+      return -sum;
+    } else {
+      return sum;
+    }
 
-}
+  }
 }

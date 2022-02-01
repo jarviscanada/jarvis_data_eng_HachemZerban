@@ -6,9 +6,10 @@ public class evenOdd {
     System.out.println(checkoddEven(9));
 
   }
+
   public static String checkoddEven(int n) {
 
-    return  n%2 == 0 ? "odd":"even";
+    return n % 2 == 0 ? "odd" : "even";
 
 
   }

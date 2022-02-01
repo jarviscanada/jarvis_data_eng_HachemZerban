@@ -10,17 +10,17 @@ public class StackMain {
     stack.push(40);
     stack.push(70);
 
-    System.out.println("Removed element : "+ stack.pop());
+    System.out.println("Removed element : " + stack.pop());
     stack.push(170);
-    System.out.println("Removed element : "+ stack.pop());
+    System.out.println("Removed element : " + stack.pop());
     // Implementation of one stack
-    StackOneQueues stack1= new StackOneQueues();
+    StackOneQueues stack1 = new StackOneQueues();
     stack1.push(4);
     stack1.push(9);
     stack1.push(10);
-    System.out.println("Top value :"+stack1.top());
+    System.out.println("Top value :" + stack1.top());
     stack1.push(404);
-    System.out.println("Top value :"+stack1.top());
+    System.out.println("Top value :" + stack1.top());
   }
 
 }
