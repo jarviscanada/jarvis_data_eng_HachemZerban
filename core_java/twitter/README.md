@@ -103,5 +103,4 @@ Testing for each module was done using `Junit4` and `Mockito`. Unit and integrat
 ## <ins> Improvements
 -  Storing tweets in a CSV file .
 - Allow users to post videos from their storage
-  
-- Implement a feature that will allow users to post tweets at a preferred time/date
+- Check tweet updates within a specific timeframe
