@@ -17,7 +17,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/linux_sql)]: Developed a monitoring tool for a cluster of servers to continuously record essential resource usage data as well as hardware specifications for each node and store the collected data on a database. I used  Linux Bash scripts, Docker, and PostgreSQL. The collected data will be used for further data analytics to balance the node's workload.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/develop/core_java)]:
       
   - **Twitter App:** Allows a user to create, read, and delete tweets from the CLI using Twitter's REST API.
   - **JDBC App:** Developed a Java application to manage a relational database of a commercial website using Java, JDBC, PostgreSQL, Design Patterns, and Maven. The application implements the Data Access Object pattern to run CRUD   (create, read, update and delete ) operations on customer data and orders made by customers.
