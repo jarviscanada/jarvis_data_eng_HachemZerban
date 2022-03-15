@@ -69,7 +69,7 @@ techapps101/twitter delete id_of_tweet
 
 ## <ins> UML Diagram
 
-![my image](./assets/twittercli.png)
+![my image](./assets/twitterapp.png)
 
 #### Description of the components
 
