@@ -19,10 +19,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerb
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/core_java)]:
       
-  - **Twitter App:** 
+  - **Twitter App:** Allows a user to create, read, and delete tweets from the CLI using Twitter's REST API.
   - **JDBC App:** Developed a Java application to manage a relational database of a commercial website using Java, JDBC, PostgreSQL, Design Patterns, and Maven. The application implements the Data Access Object pattern to run CRUD   (create, read, update and delete ) operations on customer data and orders made by customers.
   - **Grep App:** Developed a  Java application that mirrors the Linux grep command functionality that enables users to search recursively through directories to find a text pattern and then store the search results in an output file. I used Java, Linux Bash, Regex, Maven, and Docker to build the app. 
-  - 
+  
 
 
 ## Highlighted Projects
