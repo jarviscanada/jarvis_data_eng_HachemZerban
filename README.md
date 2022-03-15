@@ -15,7 +15,7 @@ I'm a bilingual IT professional with 2 years of hands-on experience in IT suppor
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HachemZerban](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/master/linux_sql)]: Developed a monitoring tool for a cluster of servers to continuously record essential resource usage data as well as hardware specifications for each node and store the collected data on a database. I used  Linux Bash scripts, Docker, and PostgreSQL. The collected data will be used for further data analytics to balance the node's workload.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/develop/linux_sql)]: Developed a monitoring tool for a cluster of servers to continuously record essential resource usage data as well as hardware specifications for each node and store the collected data on a database. I used  Linux Bash scripts, Docker, and PostgreSQL. The collected data will be used for further data analytics to balance the node's workload.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HachemZerban/tree/develop/core_java)]:
       
